@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casual Couture by Rahat</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header { background: #000; color: #fff; padding: 20px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h1, h2 { color: #000; }
+        form input, form textarea, form button { display: block; width: 100%; margin: 10px 0; padding: 10px; }
+        form button { background: #000; color: #fff; border: none; cursor: pointer; }
+        form button:hover { background: #333; }
+        footer { background: #000; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .product-card { background: #fff; padding: 10px; border: 1px solid #ddd; text-align: center; border-radius: 8px; }
+        .product-card img { width: 100%; height: auto; border-radius: 6px; }
+        .product-card h4 { margin: 10px 0 5px; }
+        .product-card p { margin: 0 0 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Casual Couture Logo" style="max-height:100px; display:block; margin: 0 auto 10px;">
+    <h1>Casual Couture by Rahat</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to Casual Couture by Rahat</h2>
+    <p>Your one-stop destination for stylish and casual clothing designed with love and elegance.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Casual Couture by Rahat brings you contemporary fashion with a touch of personal style. Our mission is to provide unique, high-quality, and comfortable clothing for everyone.</p>
+</section>
+
+<section id="shop">
+    <h2>Our Collection</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="shawl1.jpg" alt="Shawl 1">
+            <h4>Shawl 1</h4>
+            <p>Elegant lightweight shawl.</p>
+        </div>
+        <div class="product-card">
+            <img src="shawl2.jpg" alt="Shawl 2">
+            <h4>Shawl 2</h4>
+            <p>Soft pastel modest shawl.</p>
+        </div>
+        <div class="product-card">
+            <img src="shawl3.jpg" alt="Shawl 3">
+            <h4>Shawl 3</h4>
+            <p>Classic printed shawl.</p>
+        </div>
+        <div class="product-card">
+            <img src="outfit1.jpg" alt="Modest Outfit 1">
+            <h4>Modest Outfit 1</h4>
+            <p>Chic and graceful modest wear.</p>
+        </div>
+        <div class="product-card">
+            <img src="outfit2.jpg" alt="Modest Outfit 2">
+            <h4>Modest Outfit 2</h4>
+            <p>Elegant contemporary design.</p>
+        </div>
+        <div class="product-card">
+            <img src="outfit3.jpg" alt="Modest Outfit 3">
+            <h4>Modest Outfit 3</h4>
+            <p>Classic cut modest dress.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: casualcouturebyrahat@gmail.com</p>
+    <p>Phone: +94 777355789 / +94 777360683</p>
+
+    <h3>Send us an Inquiry</h3>
+    <form action="mailto:casualcouturebyrahat@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <input type="tel" name="Phone" placeholder="Your Phone Number">
+        <textarea name="Message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Inquiry</button>
+    </form>
+    <p><strong>Thank you for reaching out to Casual Couture by Rahat — we’ll get back to you soon!</strong></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Casual Couture by Rahat. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
